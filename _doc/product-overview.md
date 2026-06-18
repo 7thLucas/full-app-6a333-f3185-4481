@@ -23,7 +23,7 @@ A drag-and-drop room canvas where you set the room size, place items from a cura
 
 ### 2. Inventory Library
 Items available to place, each resizable on the canvas:
-- **Furniture**: Chair, Table, Bed
+- **Furniture**: Chair, Table, Sofa, Bed, Desk, Wardrobe
 - **Décor**: Vase, Lamp
 - **Structural**: Door, Window (placed on walls/edges)
 
