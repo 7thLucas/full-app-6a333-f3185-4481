@@ -1,0 +1,97 @@
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="w-full h-full flex flex-col p-10">
+
+    <!-- Header -->
+    <div class="mb-6">
+      <span class="text-xs font-semibold tracking-widest uppercase text-indigo-600">North Star Metric</span>
+      <div class="mt-1 h-0.5 w-10 bg-amber-400"></div>
+      <h2 class="mt-3 font-black text-slate-900 leading-tight" style="font-size:clamp(1.3rem,2.5vw,2rem);">Weekly Room Design Sessions Completed</h2>
+      <p class="mt-1 text-slate-500 text-sm">The one number uDesign lives or dies by — real users, real layouts, real decisions made.</p>
+    </div>
+
+    <div class="flex flex-col flex-1 gap-4 min-h-0">
+
+      <!-- Top row: Operation definition + WVO formula -->
+      <div class="grid gap-4 flex-shrink-0" style="grid-template-columns: 1fr 1fr;">
+
+        <!-- Verified Operation -->
+        <div class="rounded-2xl bg-indigo-950 p-6 flex flex-col gap-3">
+          <span class="text-xs font-semibold text-amber-400 uppercase tracking-wide">Verified Operation</span>
+          <p class="text-white font-bold" style="font-size:clamp(0.9rem,1.5vw,1.1rem);">Room Design Session Completed</p>
+          <p class="text-indigo-300 text-xs leading-relaxed">
+            A user sets room dimensions, places at least one item on the canvas, and either saves the layout or receives an AI placement suggestion. Clicks and logins are not operations.
+          </p>
+          <div class="mt-auto pt-3 border-t border-indigo-800">
+            <span class="text-xs text-indigo-400">Also tracked: <span class="text-indigo-200 font-medium">AI suggestion generated</span></span>
+          </div>
+        </div>
+
+        <!-- WVO Formula -->
+        <div class="rounded-2xl bg-slate-50 border border-slate-100 p-6 flex flex-col gap-3">
+          <span class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Weekly Volume — Formula</span>
+          <div class="flex flex-col gap-2">
+            <div class="flex items-center justify-between text-sm">
+              <span class="text-slate-600">Active users / week</span>
+              <span class="font-bold text-slate-900 flex items-center gap-1">50 <span class="text-xs font-normal text-amber-600 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded-full ml-1">Assumption — adjust</span></span>
+            </div>
+            <div class="flex items-center justify-between text-sm">
+              <span class="text-slate-600">Sessions per user / week</span>
+              <span class="font-bold text-slate-900 flex items-center gap-1">× 2 <span class="text-xs font-normal text-amber-600 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded-full ml-1">Assumption — adjust</span></span>
+            </div>
+            <div class="h-px bg-slate-200 my-1"></div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-semibold text-slate-700">Weekly Verified Operations</span>
+              <span class="font-black text-indigo-600 text-xl">100</span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 italic mt-auto">50 users × 2 sessions = <strong class="text-slate-600">100 ops / week</strong></p>
+        </div>
+
+      </div>
+
+      <!-- Bottom row: Value + ROI -->
+      <div class="rounded-2xl border border-amber-100 bg-gradient-to-br from-amber-50 to-indigo-50 p-6 flex-1 flex flex-col justify-between">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <span class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Projected Impact — based on your inputs</span>
+            <h3 class="mt-2 font-bold text-slate-800" style="font-size:clamp(0.9rem,1.6vw,1.1rem);">Value derivation</h3>
+            <p class="text-slate-500 text-xs mt-1 leading-relaxed max-w-md">
+              100 ops/week × 30 min saved × $20/hr user time value = <strong class="text-slate-700">$1,000 / week</strong><br/>
+              Annualised: $1,000 × 52 weeks = <strong class="text-slate-700">$52,000 / year</strong>
+            </p>
+          </div>
+          <div class="flex flex-col items-end flex-shrink-0 gap-1">
+            <span class="text-xs text-slate-400">Annual projected value</span>
+            <span class="font-black text-indigo-600" style="font-size:clamp(1.6rem,3vw,2.5rem);">$52,000</span>
+            <span class="text-xs text-slate-400">/year to users</span>
+          </div>
+        </div>
+
+        <div class="mt-4 pt-4 border-t border-amber-200 grid gap-4" style="grid-template-columns: repeat(3, 1fr);">
+          <div>
+            <p class="text-slate-400 text-xs mb-0.5">Value per operation</p>
+            <p class="font-bold text-slate-800 text-sm">$10 <span class="text-xs font-normal text-slate-400">/ session</span></p>
+            <p class="text-xs text-slate-400">30 min × $20/hr</p>
+          </div>
+          <div>
+            <p class="text-slate-400 text-xs mb-0.5">Weekly value</p>
+            <p class="font-bold text-slate-800 text-sm">$1,000 <span class="text-xs font-normal text-slate-400">/ week</span></p>
+            <p class="text-xs text-slate-400">100 ops × $10</p>
+          </div>
+          <div>
+            <p class="text-slate-400 text-xs mb-0.5">Annual value</p>
+            <p class="font-bold text-indigo-700 text-sm">$52,000 <span class="text-xs font-normal text-slate-400">/ year</span></p>
+            <p class="text-xs text-slate-400">$1,000 × 52 wks</p>
+          </div>
+        </div>
+
+        <div class="mt-3">
+          <span class="text-xs text-amber-700 bg-amber-100 border border-amber-200 px-3 py-1 rounded-full font-medium">
+            ⚠ Projected impact — adjust the assumption chips above to match your actual user base
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
