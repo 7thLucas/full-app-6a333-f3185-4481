@@ -1,0 +1,2 @@
+Build me an app to help people design a room. There is option to choose size of the room area, then user can place the inventory in vary size like chair, table, vas, bed, lamp, also door and window on the side.
+besides that, another core feature of the app is a bot that act as interior designer who can suggest the inventory placement for such a room.
