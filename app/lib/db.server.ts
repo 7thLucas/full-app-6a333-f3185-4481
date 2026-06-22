@@ -18,7 +18,6 @@ export async function connectMongoDB(): Promise<void> {
       maxPoolSize: 10,
       serverSelectionTimeoutMS: 5000,
       socketTimeoutMS: 45000,
-      authSource: 'admin',
     });
 
     isConnected = true;
